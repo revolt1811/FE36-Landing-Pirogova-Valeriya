@@ -23,6 +23,8 @@
   font-size: 20px;
   color: #333333;
   text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   }
 span{
   text-transform: none;
@@ -31,4 +33,6 @@ span{
   text-align: center;
   font-size: 14px;
   color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }

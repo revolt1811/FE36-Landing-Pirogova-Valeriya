@@ -1,5 +1,7 @@
 @import url(../css/card.css);
 @import url(../css/pricing.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
 *{
   text-decoration: none;
   margin: 0;
@@ -27,6 +29,8 @@
   margin:0 auto 34px;
   text-transform: uppercase;
   font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
  }
 .line {
   width: 64px;
@@ -40,5 +44,7 @@
   color: #86878B;
   margin:0 auto 68px;
   text-transform: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
