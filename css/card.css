@@ -1,11 +1,14 @@
 .card__wrap{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -15px;
 }
 .card {
   max-width: 350px; 
-}
+  margin: 0 15px;
+  }
 .card__img {
   width: 70px;
   height: 70px;
