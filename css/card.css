@@ -1,14 +1,21 @@
 .card__wrap{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin: 0 -15px;
 }
 .card {
-  max-width: 350px; 
+  width: 350px; 
   margin: 0 15px;
-  }
+  transition: 1s;
+  padding: 15px;
+  border-radius: 20px;
+}
+.card:hover{
+  box-shadow: 5px 10px 40px 1px rgba(134, 135, 139, 0.3);
+  cursor: pointer;
+}
 .card__img {
   width: 70px;
   height: 70px;
@@ -28,7 +35,8 @@
   text-transform: capitalize;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  }
+}
+  
 span{
   text-transform: none;
 }

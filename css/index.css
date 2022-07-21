@@ -1,5 +1,7 @@
 @import url(../css/card.css);
 @import url(../css/pricing.css);
+@import url(../css/customers.css);
+@import url(../css/axure.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
 *{
@@ -16,9 +18,11 @@
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
+  z-index: 2;
+  position: relative;
   }
 .heading {
-  max-width: 500px;
+  max-width: 700px;
   margin: auto;
   text-align: center;
   margin-bottom: 68px;
@@ -31,11 +35,17 @@
   font-weight: normal;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  transition: 2s;
  }
-.line {
+ .title:hover{
+  cursor: pointer;
+  text-decoration: underline #212121 2px;
+ }
+.subtitle::before {
+  content:'';
+  display:inline-block;
   width: 64px;
-  height: 1px;
-  border: 0.5px solid #E72424 ;
+  height: 2px;
   background-color: #E72424;
   margin: 0 auto 34px;
 }
@@ -47,4 +57,34 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-
+.title__two{
+  font-size: 36px;
+  color: #FFFFFF;
+  margin:0 auto 34px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  transition: 2s;
+ }
+ .title__two:hover{
+  cursor: pointer;
+  text-decoration: underline #FFFFFF 2px;
+ }
+ 
+.subtitle__two {
+  font-size: 14px;
+  color: rgb(255, 255, 255, 0.8);
+  margin:0 auto 68px;
+  text-transform: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.subtitle__two::before {
+  content:'';
+  display:inline-block;
+  width: 64px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 0 auto 34px;
+}

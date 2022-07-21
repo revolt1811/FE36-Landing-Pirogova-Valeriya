@@ -1,0 +1,81 @@
+#customers{
+  padding: 80px 0 120px;
+}
+.fback__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.fback__card {
+  padding: 15px;
+  margin: 0 15px;
+  width: 325px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.fback__card--text:hover{
+  box-shadow: 5px 10px 40px 1px rgba(134, 135, 139, 0.3);
+  cursor: pointer;
+}
+.fback__card--text {
+  width: 298px;
+  font-size: 14px;
+  border-radius:7px ;
+  color: #86878B;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 22px;
+  text-align: center;
+  background-color: #E2E2E2;
+  padding: 7px 22px;
+  position: relative;
+  transition: 1s;
+}
+.fback__card--text::after{
+  content: '';
+  display: inline-block;
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent; 
+  border-right: 10px solid transparent; 
+  border-top: 10px solid #E2E2E2;
+  position:absolute;
+  top: 105px;
+  left:40px;
+}
+.fback__card--inform{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fback__card--img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin:0 auto 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fback__card--img img{
+  width: 100%;
+}
+.fback__card--name{
+  text-align: right;
+}
+h3{
+  margin-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #333333;
+  font-size: 20px;
+}
+#s2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #86878B;
+  font-size: 14px;
+}
