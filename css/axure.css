@@ -1,6 +1,6 @@
 #axure{
   padding:70px 0 40px;
-  background-image:url(/img/bg_axure.png);
+  background-image:url(../img/bg_axure.png);
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,22 +17,19 @@
   left: 0;
   z-index: 1;
 }
-.dow{
-  width: 135px;
-  margin: auto;
-  border: 1px solid #ffffff;
+.download{
   text-align: center;
-  line-height: 42px;
-  cursor: pointer;
-  transition: 0.5s;
 }
-.dow:hover{
+.download a:hover{
   box-shadow: 5px 10px 40px 1px rgba(0, 0, 0, 0.5);
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
-.dow a{
+.download a{
   font-size: 15px;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  padding: 10px 30px;
+  border: 1px solid #ffffff;
+  transition: 1s;
 }
