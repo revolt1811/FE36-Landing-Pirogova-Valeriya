@@ -9,7 +9,7 @@
 }
 .fback__card {
   margin: 0 15px;
-  width: 325px;
+  width: 300px;
   border-radius: 20px;
   transition: 0.5s;
 }
@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 .fback__card--text {
-  width: 298px;
+  width: 300px;
   font-size: 14px;
   border-radius:7px ;
   color: #86878B;
@@ -30,6 +30,7 @@
   padding: 7px 22px;
   position: relative;
   transition: 1s;
+  text-align: center;
 }
 .fback__card--text::after{
   content: '';
