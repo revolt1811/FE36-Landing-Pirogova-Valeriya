@@ -1,0 +1,58 @@
+#pricing{
+  background-color: #f5f5f5;
+  padding: 80px 0 59px;
+}
+.price{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.price__list{
+  margin: 0 15px;
+
+}
+.price__list-name {
+  width: 340px;
+  line-height: 50px;
+  background: #333333;
+  color: #ffff;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+.price__list-cost {
+  width: 340px;
+  line-height: 100px;
+  background: #333333;
+  color: #ffff;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 2px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.price__list-file {
+  width: 340px;
+  line-height: 50px;
+  background: #333333;
+  color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.price__list-item {
+  width: 340px;
+  line-height: 40px;
+  background: #ffff;
+  color: #86878b;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
