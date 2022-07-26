@@ -35,7 +35,7 @@
 }
 .navigation__list--item{
   border-bottom: 2px solid #000;  
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .navigation__list--item:hover{
   border-bottom: 2px solid #EC7979 ;

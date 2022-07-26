@@ -1,0 +1,50 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+#media{
+  background-color: #F8EFEF;
+  padding: 14px 0 17px;
+}
+.media__wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.media__text {
+}
+.media__text--paragraf {
+}
+.icons {
+  display: flex;
+}
+
+.icons li{
+  margin-left: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icons li .fa-brands{
+  font-size: 42px;
+  -webkit-text-stroke: 1.5px var(--clr);
+  color:transparent;
+  transition: 0.5s;
+}
+.icons li .fa-brands:hover{
+  color: var(--clr);
+  transform: translate(-3px, 3px) scale(1.2);
+}
+.media__text h2{
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 14px;
+  text-transform: capitalize;
+}
+.media__text--paragraf p{
+  width: 365px;
+  color: #86878B;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
