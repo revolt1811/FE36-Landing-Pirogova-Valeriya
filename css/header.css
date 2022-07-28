@@ -1,11 +1,15 @@
 #header{
   background-color: #000000;
   padding: 20px 0;
+  position: sticky;
+  top:0;
+  z-index: 3;
 }
 .header__wrap{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 -15px;
 }
 .logo {
   color: #fff;
@@ -13,6 +17,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 30px ;
+  margin: 0 15px;
 }
 .logo span{
   color: #EC7979;
@@ -21,8 +26,13 @@
   font-weight: 400;
   font-size: 30px ;
 }
+.navigation{
+  margin: 0 15px;
+}
 .navigation__list{
   display:flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .navigation__list--item {
   margin-left: 48px;
@@ -34,10 +44,10 @@
   font-size: 15px;
 }
 .navigation__list--item{
-  border-bottom: 2px solid #000;  
-  transition: 0.2s;
+  border-bottom: 2px solid rgb(0, 0, 0, 0);  
+  transition: 0.5s;
 }
 .navigation__list--item:hover{
   border-bottom: 2px solid #EC7979 ;
-  transform: scale(1.1);
+  transform: scale(1.1) translate(-5px, 2px);
 }

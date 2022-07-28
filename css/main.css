@@ -1,0 +1,117 @@
+#main{
+  padding:100px 0 100px;
+  background-image:url(../img/bg_main.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+#main::after{
+  content: '';
+  background: rgba(0, 0, 0, 0.45); 
+  width: 100%; 
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.main__wrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+.main__inform{
+  width: 545px;
+  margin: 0 15px;
+}
+.main__inform--logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 60px ;
+  margin-bottom: 42px;
+}
+.main__inform--logo span{
+  color: #EC7979;
+  text-transform: uppercase;
+}
+.main__inform .subtitle__two{
+  width: 285px;
+  margin:0 0 49px;
+}
+.main__inform .title__two::after{
+  margin: 32px 0 39px;
+}
+.main__inform .download{
+  text-align: left;
+}
+.main__form{
+  margin: auto 15px;
+  width: 370px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.main__form--items input{
+  width: 252px;
+  border: 0;
+  outline: none;
+  border-bottom:1px solid #BDBDBD;
+  color: #BDBDBD;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+}
+.main__form--items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main__form--title{
+  line-height:56px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #333333;
+}
+.main__form--title span{
+  text-transform: uppercase;
+  color: #EC7979;
+}
+.get{
+  margin-top: 61px;
+  justify-content: flex-end;
+  line-height: 54px;
+  background-color:#EC7979;
+  border: 0;
+  border-radius: 0 0 8px 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.get:hover{
+  background-color: rgba(236, 121, 121, 0.8);
+  color: rgba(51, 51, 51,0.9);
+}
+
+.main__form--items label{
+  margin-left: 59px;
+  color: #BDBDBD;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #BDBDBD;
+  line-height:57px;
+}

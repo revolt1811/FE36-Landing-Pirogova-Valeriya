@@ -15,6 +15,7 @@
 }
 .footer__icons .fa-brands:hover{
   transform:translate(-3px, 3px) scale(1.2);
+  color: var(--clr);
 }
 .footer__wrap span{
   display: block;
