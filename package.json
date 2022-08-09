@@ -1,0 +1,25 @@
+{
+  "name": "pirogova_valeriya_fe36-onl_awesome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revolt1811/Pirogova_Valeriya_FE36-onl_awesome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revolt1811/Pirogova_Valeriya_FE36-onl_awesome/issues"
+  },
+  "homepage": "https://github.com/revolt1811/Pirogova_Valeriya_FE36-onl_awesome#readme",
+  "dependencies": {
+    "concat": "^1.0.3",
+    "sass": "^1.54.2"
+  }
+}

@@ -12,19 +12,17 @@
   width: 365px;
   margin: 0 15px;
 }
-.media__text--paragraf {
-}
+
 .icons {
+  width: 55%;
   display: flex;
+  justify-content: space-between;
   margin: 0 15px;
   flex-wrap: wrap;
+  align-self: center;
 }
 
 .icons li{
-  margin-left: 55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
 }
 .icons li .fa-brands{

@@ -56,12 +56,7 @@
   z-index: 5;
   position: relative;
 }
-.tabs__content{
-  
-}
-.tabs__content #tab_01{
-  
-}
+
 .tabs__content--block {
   display: none;
 }
